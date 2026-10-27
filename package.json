@@ -1,0 +1,50 @@
+{
+  "name": "@local/token-toggle",
+  "version": "1.0.0",
+  "private": true,
+  "description": "省 Token 快捷开关：在输入框模型选择左侧一键启停文档转 Markdown、网页正文读取、MCP 按需加载三个省 token 插件。",
+  "author": "cypher-yht",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "token",
+    "token-saver",
+    "plugin-manager"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cypher-yht/dsh-plugins-token-toggle.git"
+  },
+  "homepage": "https://github.com/cypher-yht/dsh-plugins-token-toggle#readme",
+  "bugs": {
+    "url": "https://github.com/cypher-yht/dsh-plugins-token-toggle/issues"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

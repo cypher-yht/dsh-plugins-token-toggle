@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "Token Saver Switches",
+    "description": "Quickly toggle token-saving plugins left of the composer model selector: Office/PDF to Markdown, clean URL reading, and lazy MCP loading."
+  },
+  "button": "Tokens",
+  "buttonAria": "Token saver plugin switches",
+  "panel.title": "Token Saver Plugins",
+  "panel.subtitle": "Toggle now; changes apply to the current profile",
+  "panel.loading": "Reading plugin state…",
+  "panel.error": "Could not read plugin state",
+  "panel.footer": "Toggles are saved to this profile; restart DSH if a change reports that a restart is required.",
+  "panel.close": "Close",
+  "row.enabled": "On",
+  "row.disabled": "Off",
+  "row.uninstalled": "Not installed",
+  "row.busy": "Switching…",
+  "b.office.title": "Docs → Markdown",
+  "b.office.desc": "Convert Office/PDF to .md and pass only the path",
+  "b.read.title": "Read URL",
+  "b.read.desc": "Clean body text, capped and cached",
+  "b.mcp.title": "Lazy MCP",
+  "b.mcp.desc": "One proxy tool; schemas load on demand",
+  "applied": "Switched and applied",
+  "unchanged": "No change",
+  "restart": "Saved; restart DSH to apply",
+  "overridden": "Saved, but overridden by a higher-priority layer",
+  "failed": "Switch failed",
+  "cancelled": "Cancelled",
+  "toggleFailed": "Switch failed"
+}

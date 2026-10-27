@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "省 Token 快捷开关",
+    "description": "在输入框模型选择左侧一键启停省 token 插件：文档转 Markdown、网页正文读取、MCP 按需加载。"
+  },
+  "button": "省 Token",
+  "buttonAria": "省 Token 插件快捷开关",
+  "panel.title": "省 Token 插件",
+  "panel.subtitle": "一键启停，立即作用于当前 profile",
+  "panel.loading": "正在读取插件状态…",
+  "panel.error": "读取插件状态失败",
+  "panel.footer": "切换会写入当前 profile；若提示需重启，请重启 DSH 后生效。",
+  "panel.close": "关闭",
+  "row.enabled": "已启用",
+  "row.disabled": "已停用",
+  "row.uninstalled": "未安装",
+  "row.busy": "切换中…",
+  "b.office.title": "文档转 Markdown",
+  "b.office.desc": "Office/PDF 先转 .md，只把路径交给模型",
+  "b.read.title": "网页正文读取",
+  "b.read.desc": "抓正文、限长、缓存，避免 HTML 噪声",
+  "b.mcp.title": "MCP 按需加载",
+  "b.mcp.desc": "只暴露一个代理工具，工具 schema 用到才加载",
+  "applied": "已切换并生效",
+  "unchanged": "状态未变化",
+  "restart": "已保存，需重启 DSH 生效",
+  "overridden": "已保存，但被更高优先级配置覆盖",
+  "failed": "切换失败",
+  "cancelled": "操作已取消",
+  "toggleFailed": "切换失败"
+}
